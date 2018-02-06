@@ -14,6 +14,8 @@ class EmailParser
   def parse
     emails.split(", ")
 
+    emails.map {|list|}
+
 
   end
 
