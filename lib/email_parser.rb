@@ -3,8 +3,8 @@ class EmailParser
 
 attr_accessor :emails
 binding.pry
-  def parse(emails) #FIX
-    emails.split(", ") #FIX
+  def parse(emails)
+    emails.split(", ")
   end
 
 end #class
