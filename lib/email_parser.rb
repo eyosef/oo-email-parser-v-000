@@ -3,7 +3,7 @@ class EmailParser
 attr_accessor :emails
 
   def parse(emails)
-    emails()
+    emails.split()
   end
 
 end #class
