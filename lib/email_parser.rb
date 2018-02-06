@@ -3,8 +3,11 @@ class EmailParser
 
 attr_accessor :emails
 
-  def initialize
+list = []
 
+
+  def initialize
+    
   end
 
   def parse(emails)
