@@ -4,6 +4,7 @@ attr_accessor :emails
 
   def parse(emails)
     emails.split(", ")
+    binding.pry
   end
 
 end #class
