@@ -4,6 +4,9 @@ attr_accessor :emails
 
 list = []
 
+def initialize
+end
+
   def parse(emails)
   end
 
