@@ -9,7 +9,6 @@ attr_accessor :emails
   def initialize(emails)
     @emails=emails
     @@list << emails
-
   end
 
   def parse(emails)
