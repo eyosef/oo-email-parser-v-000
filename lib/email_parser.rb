@@ -8,7 +8,7 @@ list = []
 
   def initialize(emails)
     @emails=emails
-
+    list << emails
 
   end
 
