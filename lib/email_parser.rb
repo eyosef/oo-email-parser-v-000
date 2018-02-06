@@ -9,7 +9,6 @@ attr_accessor :emails
   def initialize(emails)
     @emails=emails
     @@list << emails #Do I even need this line? Highly skeptical it's needed...
-    binding.pry
   end
 
 
