@@ -9,7 +9,9 @@ attr_accessor :emails
   def initialize(emails)
     @emails=emails
     @@list << emails
+    binding.pry
   end
+
 
   def parse(emails)
     emails.split(", ")
