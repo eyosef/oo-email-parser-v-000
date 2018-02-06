@@ -2,7 +2,7 @@ require 'pry'
 class EmailParser
 
 attr_accessor :emails
-
+binding.pry
   def parse(emails) #FIX
     emails.split(", ") #FIX
   end
