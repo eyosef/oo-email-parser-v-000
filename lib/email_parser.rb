@@ -6,8 +6,8 @@ attr_accessor :emails
 list = []
 
 
-  def initialize
-    
+  def initialize(emails)
+
   end
 
   def parse(emails)
