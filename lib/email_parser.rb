@@ -12,9 +12,7 @@ class EmailParser
 
 
   def parse
-    #emails.split(", ")
-
-    emails.detect {|list| list.split(", ") || list.split(" ")}
+    emails.split(", ")
 
 
   end
