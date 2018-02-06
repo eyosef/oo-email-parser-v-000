@@ -14,7 +14,7 @@ class EmailParser
   def parse
     #emails.split(", ") #parses CSV emails
     #emails.split(" ") #parses space delimited emails
-    emails.split(" " && ", ")
+    emails.split(" " && ", ").uniq
   end
 
 end #class
