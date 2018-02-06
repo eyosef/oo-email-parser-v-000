@@ -2,7 +2,11 @@ require 'pry'
 class EmailParser
 
 attr_accessor :emails
-binding.pry
+
+  def initialize
+
+  end
+
   def parse(emails)
     emails.split(", ")
   end
