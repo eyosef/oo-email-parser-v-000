@@ -12,7 +12,7 @@ class EmailParser
 
 
   def parse
-    emails.detect {|string| if string.include?(", ") string.split(", ")}
+    emails.detect {|string| if string.include?(", ") then string.split(", ")}
     #emails.split(", ") #1 parses CSV emails
     #emails.split(" ") #2 parses space delimited emails
     #emails.split(" " && ", ").uniq #1 parses CSV emails # 4 parses and removes duplicate emails
