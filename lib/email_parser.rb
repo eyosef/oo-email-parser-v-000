@@ -12,9 +12,9 @@ class EmailParser
 
 
   def parse
-    #emails.split(", ") #parses CSV emails
-    #emails.split(" ") #parses space delimited emails
-    emails.split(" " && ", ").uniq #parses CSV emails and removes duplicate emails
+    #emails.split(", ") #1 parses CSV emails
+    #emails.split(" ") #2 parses space delimited emails
+    emails.split(" " && ", ").uniq #1parses CSV emails # 4parses and removes duplicate emails
   end
 
 end #class
