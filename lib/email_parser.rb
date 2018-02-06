@@ -5,7 +5,6 @@ attr_accessor :emails
 
 @@list = []
 
-
   def initialize(emails)
     @emails=emails
     @@list << emails #Do I even need this line? Highly skeptical it's needed...
