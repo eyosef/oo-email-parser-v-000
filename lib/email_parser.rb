@@ -12,8 +12,8 @@ class EmailParser
 
 
   def parse
-    #emails.split(", ")
-    emails.split(" ")
+    #emails.split(", ") #parses CSV emails
+    emails.split(" ") #parses space delimited emails
 
   end
 
